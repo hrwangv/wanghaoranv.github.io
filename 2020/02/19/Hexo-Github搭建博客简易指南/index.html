@@ -424,10 +424,10 @@ height:50vh;
 <li>Hugo：静态框架，基于Go语言</li>
 </ul>
 <p>本博客采用Hexo框架，具体步骤官方网站上写得比较清楚<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a>，在这我就大致复盘一下，主要记录我遇到的问题</p>
-<p>安装Hexo首先需要安装一些环境：<br><strong>Git:</strong><br>直接在官网下载，如果下载速度极慢，需要用到淘宝镜像源，具体地址官方文档有。Git到底是什么？我也没能太理解，似乎是一个分布式版本系统，可以控制代码版本，相当于作为仓库保存修改前修改后的内容。听职场程序员说，Git在工作中用处很大，很重要。下图是Git工作原理:</p>
+<p>安装Hexo首先需要安装一些环境：<br><strong>Git:</strong><br>直接在官网下载，如果下载速度极慢，需要用到淘宝镜像源，具体地址官方文档有,上面已给出链接。Git到底是什么？我也没能太理解，似乎是一个分布式版本系统，可以控制代码版本，相当于作为仓库保存修改前修改后的内容。听职场程序员说，Git在工作中用处很大，很重要。下图是Git工作原理:</p>
 <p><img src="/picture/Git.jpeg" alt="Git工作原理" title="Git工作原理"><font size=2><em>注：Workspace:工作区; Index:暂存区; Repository:本地仓库; Remote:远程仓库,图源知乎</em></font></p>
 <p><strong>Node.js：</strong><br>直接在官网下载，如果安装速度极慢，同样需要淘宝镜像源。Node.js 是Javascript（开发Web页面的脚本语言）的运行环境，是一个前端的框架，能够让JavaScript在服务端运行。</p>
-<p>以上两个工具安装完成后，正式开始安装Hexo，具体步骤指令可参照官方文档。安装完成后，可以使用hexo s指令，利用本地服务器4000端口，测试加载情况，这时应看到初始的博客，后续的主题使用配置，可以在官网的主题页里进行选择。</p>
+<p>以上两个工具安装完成后，正式开始安装Hexo，具体步骤指令可参照官方文档。安装完成后，可以使用 <code>hexo s</code>指令，利用本地服务器4000端口，测试加载情况，这时应看到初始的博客，后续的主题使用配置，可以在官网的主题页里进行选择。</p>
 <h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2><p>众所周知Github是一款全球流行的同性交友软件，使用前需要绑定邮箱进行注册。注意，你注册的用户名，以后会用作域名的一部分，不要太随意就行。注册完成后新建一个仓库，仓库名一定要以：<strong>你的用户名.github.io</strong> 命名，否则不能成功，这就是你博客的域名。新建仓库后可以在Setting里设置发布，这时，你在网页上输入域名，就可以看到初始的页面。如果有能力可以在这个仓库里写进代码，自己设计创建网页，但这里我就导入前面部署好的Hexo框架。</p>
 <h2 id="配置SSH密钥"><a href="#配置SSH密钥" class="headerlink" title="配置SSH密钥"></a>配置SSH密钥</h2><p>两部分都准备好了之后，我们还要配置SSH密钥，具体含义我不太理解，这里直接放出网上找的资料：</p>
 <blockquote>
@@ -440,7 +440,7 @@ height:50vh;
 <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>最后的部署要使用hexo-deployer-git插件，具体步骤和指令Hexo官方文档有，一键部署。之后同样根据文档修改配置就大功告成了。<br>使用的主题样式可以自由选择，很多功能还要自己慢慢摸索，以后也可以学习前端的知识修改别人的主题，自己设计。</p>
 <p>如果读者发现了错误，可以联系我指正，相互交流<br>这是第一篇长文，可真难写啊</p>
 <hr>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[01]. <a href="https://www.jianshu.com/p/7aba9b127cb8" target="_blank" rel="noopener">https://www.jianshu.com/p/7aba9b127cb8</a><br>[02]. <a href="https://www.jianshu.com/p/c9295bacd98b" target="_blank" rel="noopener">https://www.jianshu.com/p/c9295bacd98b</a><br>[03]. <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a><br>[04]. <a href="https://blog.csdn.net/weixin_42028854/article/details/80019945?utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">CSDN</a><br>[05]. <a href="https://baike.baidu.com/item/静态页面/9092331?fr=aladdin" target="_blank" rel="noopener">百度百科</a><br>[06]. <a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">B站CodeSheep</a><br>[07]. <a href="https://www.bilibili.com/video/av24897960/?spm_id_from=333.788.videocard.1" target="_blank" rel="noopener">B站hujun_cn</a></p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[01]. <a href="https://www.jianshu.com/p/7aba9b127cb8" target="_blank" rel="noopener">https://www.jianshu.com/p/7aba9b127cb8</a><br>[02]. <a href="https://www.jianshu.com/p/c9295bacd98b" target="_blank" rel="noopener">https://www.jianshu.com/p/c9295bacd98b</a><br>[03]. <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a><br>[04]. <a href="https://blog.csdn.net/weixin_42028854/article/details/80019945?utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">CSDN</a><br>[05]. <a href="https://baike.baidu.com/item/静态页面/9092331?fr=aladdin" target="_blank" rel="noopener">百度百科</a><br>[06]. <a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">B站_CodeSheep</a><br>[07]. <a href="https://www.bilibili.com/video/av24897960/?spm_id_from=333.788.videocard.1" target="_blank" rel="noopener">B站_hujun_cn</a></p>
 </font>
     </article>
     <!-- license  -->
@@ -449,7 +449,7 @@ height:50vh;
             <p>Author：<a href="https://wanghaoranv.github.io">wanghaoran</a>
             <p>原文链接：<a href="https://wanghaoranv.github.io/2020/02/19/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/">https://wanghaoranv.github.io/2020/02/19/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/</a>
             <p>发表日期：<a href="https://wanghaoranv.github.io/2020/02/19/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/">February 19th 2020, 8:43:03 pm</a>
-            <p>更新日期：<a href="https://wanghaoranv.github.io/2020/02/19/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/">February 21st 2020, 8:18:53 pm</a>
+            <p>更新日期：<a href="https://wanghaoranv.github.io/2020/02/19/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E6%98%93%E6%8C%87%E5%8D%97/">April 4th 2020, 11:04:13 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     
@@ -638,9 +638,23 @@ top:50vh;
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 4
+        Total : 6
         </div>
         <!-- search  -->
         
@@ -653,6 +667,16 @@ top:50vh;
     
     <div class="archive-year"> 2020 </div>
     <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/26</span><a class="archive-post-title" href= "/2020/03/26/HTML%E5%9F%BA%E7%A1%80-%E4%B8%80/" >HTML基础(一)</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/11</span><a class="archive-post-title" href= "/2020/03/11/%E8%8B%B1%E8%AF%AD%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0(%E4%B8%80)/" >英语写作练习（一）</a>
+        </li>
     
     
         <li class="archive-post-item">
@@ -688,6 +712,12 @@ top:50vh;
         <span class="sidebar-tag-name" data-tags="博客搭建"><span class="iconfont-archer">&#xe606;</span>博客搭建</span>
     
         <span class="sidebar-tag-name" data-tags="足球复盘"><span class="iconfont-archer">&#xe606;</span>足球复盘</span>
+    
+        <span class="sidebar-tag-name" data-tags="英语学习"><span class="iconfont-archer">&#xe606;</span>英语学习</span>
+    
+        <span class="sidebar-tag-name" data-tags="HTML"><span class="iconfont-archer">&#xe606;</span>HTML</span>
+    
+        <span class="sidebar-tag-name" data-tags="前端"><span class="iconfont-archer">&#xe606;</span>前端</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
@@ -725,6 +755,8 @@ jsonContent:
         <span class="sidebar-category-name" data-categories="杂谈"><span class="iconfont-archer">&#xe60a;</span>杂谈</span>
     
         <span class="sidebar-category-name" data-categories="指南"><span class="iconfont-archer">&#xe60a;</span>指南</span>
+    
+        <span class="sidebar-category-name" data-categories="HTML"><span class="iconfont-archer">&#xe60a;</span>HTML</span>
     
     </div>
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
