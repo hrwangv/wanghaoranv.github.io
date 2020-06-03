@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>汪浩然的个人博客</title>
+    <title>Java基础(一) · 汪浩然的个人博客</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -203,6 +203,8 @@
 <meta name="generator" content="Hexo 4.2.0"></head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
@@ -210,7 +212,16 @@
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
     
-    <a class="home-link" href=/>Welcome~</a>
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >-Welcome-</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">Java基础(一)</a>
+            </div>
+    </div>
+    
+    <a class="home-link" href=/>-Welcome-</a>
 </header>
     <div class="wrapper">
         <div class="site-intro" style="
@@ -220,24 +231,74 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            Java基础(一)
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "Java基础">Java基础</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>Word count: <span class="post-count word-count">823</span>Reading time: <span class="post-count reading-time">2 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2020/03/19</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -338,43 +399,115 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/26/HTML%E5%9F%BA%E7%A1%80-%E4%B8%80/" >
-            
-                <span>HTML基础(一)</span>
-        </a>
-        <div class="abstract-content">
-            <font size=4>
+            <main class="main post-page">
+    <article class="article-entry">
+        <font size=4>
 
-<p>此系列用作学习HTML时的笔记
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/26</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "HTML">HTML</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "前端">前端</a>
-    
-</div>
-            
-        </div>
+<p>此系列用作学习Java的笔记，第一篇从最简单的Java知识讲起<a id="more"></a></p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p><strong>软件</strong>：一系列按照特定顺序组织的计算机数据和指令的集合，人与计算机之间更好<strong>交互</strong>，我们想做什么，计算机必须听懂我们，采用的语言就是计算机语言（很多种，编程语言）</p>
+<p>交互方式：</p>
+<ul>
+<li>图形化 ：Windows，视图，鼠标点击的方式</li>
+<li>命令行方式：要记住很多指令 </li>
+</ul>
+<p>常见的DOS命令：</p>
+<ul>
+<li>md   创建文件夹</li>
+<li>cd   进入文件夹，前进一级</li>
+<li>cd..  后退一级</li>
+<li>dir   列出当前目录下文件及文件夹</li>
+<li>rd   删除目录，删除时必须为空</li>
+<li>cd/   返回根目录</li>
+<li>del   删除文件，后面跟文件名，dos上不走回收站，*代表删所有文件，而 *.txt 则只选择txt文件</li>
+<li>set classpath=    后加路径，表示在此路径下运行，设置环境变量；后不加，表示清空环境变量</li>
+</ul>
+<h2 id="跨平台性"><a href="#跨平台性" class="headerlink" title="跨平台性"></a>跨平台性</h2><p>简单来说，通过Java语言编写的应用程序在不同的操作系统上都能运行，良好的移植性<br>在不同操作系统上，只要安装<strong>虚拟机 JVM</strong> , 就能跨平台运行，虚拟机也分版本针对不同平台<br>windows使用C和C++，系统内也有针对这两种语言的虚拟机，所以对他们具有良好的适应性</p>
+<h2 id="文本运行"><a href="#文本运行" class="headerlink" title="文本运行"></a>文本运行</h2><p>javac  文本文件名.java    ：产生字节码文件.class</p>
+<p>java  产生的字节码文件名  ：运行</p>
+<ul>
+<li>类名Class前可以不加public（修饰符，提升权限），只是加了以后，文件名一定要跟类名一致</li>
+</ul>
+<h2 id="第一个程序的解析"><a href="#第一个程序的解析" class="headerlink" title="第一个程序的解析"></a>第一个程序的解析</h2><p>public //修饰字<br>class//关键字：被Java语言定义的特殊的，<strong>只能</strong>小写，定义类，</p>
+<p> Hello World //类名，起一些有意义的词，代表类；类名<strong>通常</strong>（非必须）用单词构成单词首字母通常大写，多个单词首字母也通常大写</p>
+<p>大括号定义类的区间</p>
+<p>{</p>
+<pre><code>public static void main(String[] args)
+/*
+主函数，程序从这里开始运行，固定格式，保证类的独立运行，被虚拟机调用
+/*
+{
+    System.out.println(&quot;HelloWorld&quot;);
+    // 输出打印语句，分号必须要带上，编译时期检查语法
+}</code></pre><p>}</p>
+<p>一个源文件可以写进两个类，生成两个字节码文件，但只能从具有主函数的类开始运行</p>
+<p>类里不是必须写主函数，需要类运行就写主函数，一个文件多个类可以写进多个主函数，但一个类只能写一个主函数，即程序入口。</p>
+<p><strong>多行注释</strong>：常在一些方法前</p>
+<blockquote>
+<p>/*</p>
+<p>这是第一行注释</p>
+<p>这是第二行注释</p>
+<p>*/    </p>
+</blockquote>
+<p>保存在bin文件夹中，Javadoc.exe  ，会提取出所有的注释，相当于一个说明书</p>
+<p><strong>文档注释</strong>，通常在文件开头，Java特有的注释</p>
+<blockquote>
+<p>/**</p>
+<p>一些信息</p>
+<p>/*</p>
+</blockquote>
+<p>注释也可以当作断点，用来调试程序；单行注释，多行 注释中都可以添加单行注释，但是注意，多行注释中不能嵌套多行注释</p>
+<p>写代码先写注释，思想，然后用编程语言表达出</p>
+<blockquote>
+<p>/*</p>
+<p>需求:。。。。</p>
+<p>思路：1.2.3.</p>
+<p>步骤：1.定义的类2.3.4.5.。。。。</p>
+</blockquote>
+</font>
     </article>
+    <!-- license  -->
+    
+        <div class="license-wrapper">
+            <p>Author：<a href="https://wanghaoranv.github.io">wanghaoran</a>
+            <p>原文链接：<a href="https://wanghaoranv.github.io/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/">https://wanghaoranv.github.io/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/</a>
+            <p>发表日期：<a href="https://wanghaoranv.github.io/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/">March 19th 2020, 11:30:15 pm</a>
+            <p>更新日期：<a href="https://wanghaoranv.github.io/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/">June 3rd 2020, 11:21:53 pm</a>
+            <p>版权声明：本文采用<a rel="license noopener" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
+        </div>
     
     <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+                <div class="nextSlogan">Next Post</div>
+                <a href= "/2020/03/26/HTML%E5%9F%BA%E7%A1%80-%E4%B8%80/" title= "HTML基础(一)">
+                    <div class="nextTitle">HTML基础(一)</div>
+                </a>
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2020/03/11/%E8%8B%B1%E8%AF%AD%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0(%E4%B8%80)/" title= "英语写作练习（一）">
+                    <div class="prevTitle">英语写作练习（一）</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
+    
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -467,6 +600,24 @@
     </div>
     <!-- toc -->
     
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#概述"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#跨平台性"><span class="toc-number">2.</span> <span class="toc-text">跨平台性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文本运行"><span class="toc-number">3.</span> <span class="toc-text">文本运行</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第一个程序的解析"><span class="toc-number">4.</span> <span class="toc-text">第一个程序的解析</span></a></li></ol>
+    </div>
+    
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
     <ul class="sidebar-tabs sidebar-tabs-active-0">
@@ -523,9 +674,46 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 6
+        Total : 9
         </div>
         <!-- search  -->
         
@@ -541,7 +729,22 @@
     
     
         <li class="archive-post-item">
+            <span class="archive-post-date">06/03</span><a class="archive-post-title" href= "/2020/06/03/%E8%8B%B1%E8%AF%AD%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0%EF%BC%88%E4%BA%8C%EF%BC%89/" >英语写作练习（二）</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/02</span><a class="archive-post-title" href= "/2020/04/02/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E4%B8%80%E4%BA%9B%E6%A0%87%E8%AE%B0/" >HTML基础(二)：一些标签</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
             <span class="archive-post-date">03/26</span><a class="archive-post-title" href= "/2020/03/26/HTML%E5%9F%BA%E7%A1%80-%E4%B8%80/" >HTML基础(一)</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/19</span><a class="archive-post-title" href= "/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/" >Java基础(一)</a>
         </li>
     
     
@@ -590,6 +793,8 @@
     
         <span class="sidebar-tag-name" data-tags="前端"><span class="iconfont-archer">&#xe606;</span>前端</span>
     
+        <span class="sidebar-tag-name" data-tags="Java基础"><span class="iconfont-archer">&#xe606;</span>Java基础</span>
+    
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
     <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
@@ -627,7 +832,9 @@ jsonContent:
     
         <span class="sidebar-category-name" data-categories="指南"><span class="iconfont-archer">&#xe60a;</span>指南</span>
     
-        <span class="sidebar-category-name" data-categories="HTML"><span class="iconfont-archer">&#xe60a;</span>HTML</span>
+        <span class="sidebar-category-name" data-categories="Java系列"><span class="iconfont-archer">&#xe60a;</span>Java系列</span>
+    
+        <span class="sidebar-category-name" data-categories="HTML系列"><span class="iconfont-archer">&#xe60a;</span>HTML系列</span>
     
     </div>
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
@@ -661,6 +868,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
