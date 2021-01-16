@@ -266,15 +266,15 @@ height:50vh;
                 
                     <div class= post-intro-tags >
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "信号与系统">信号与系统</a>
-    
         <a class="post-tag" href="javascript:void(0);" data-tags = "傅里叶变换">傅里叶变换</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "信号">信号</a>
     
 </div>
                 
                 
                     <div class="post-intro-read">
-                        <span>Word count: <span class="post-count word-count">3.1k</span>Reading time: <span class="post-count reading-time">10 min</span></span>
+                        <span>Word count: <span class="post-count word-count">3.2k</span>Reading time: <span class="post-count reading-time">10 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
@@ -404,7 +404,7 @@ height:50vh;
             <main class="main post-page">
     <article class="article-entry">
         <font size=4>
-这次来写一点自己老本行的东西，之前乱起八糟地写，万一写得不好被人喷，还有理由狡辩一下。如果写自己专业的知识出了大岔子......<a id="more"></a>
+这次来讲一点自己老本行的东西，之前乱起八糟地写，万一写得不好被人喷，还有理由狡辩一下。如果写自己专业的知识出了大岔子......<a id="more"></a>
 
 <p>开个玩笑，建这个博客就是让自己大胆表达出来的，不会怕什么，肯定有不准确的地方，如果写错了，欢迎指出来。考研看了那么久的书，不管考没考上，学到的知识总得留下点痕迹。</p>
 <p>只要你学通信干这行一定绕不过<strong>傅里叶</strong>这个让人无比头疼的人，而且在考研学政治期间，好像又知道了傅里叶在政治学领域同样干出了点成绩，真是会来事啊。 </p>
@@ -428,10 +428,10 @@ height:50vh;
 <p>频域，即频率域。<br>频率又是什么，是单位时间内完成周期性变化的次数，打个简单的比方就是1秒钟能抖多少次，这个次数就是频率的值，当然还可以知道这个值是周期的倒数。<br>哲学上讲，任何物体都在运动，运动是物质存在的形式。事实上确实每个物体都有频率，原子、分子、人都有自己的固有频率。</p>
 <p>所以频率域是另一种看世界的角度，这个角度从频率出发，用频率来描述一切。</p>
 <p>再打个比方，这个比方不是我想出来的，但很贴切：我们听到的一首悦耳的歌，有抑扬顿挫，有高音低音等等，这就是时域层面的，比较直观；但专业的歌手、乐手们要会看各种音符，并能根据音符唱出来或弹奏出来，用音符来描述歌曲，就相当于在频域角度看世界，比较抽象，但更准确。</p>
-<p><img src="/picture/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/%E6%97%B6%E5%9F%9F%E9%A2%91%E5%9F%9F%E5%AF%B9%E5%BA%94.gif" alt=""><font size=2> <em>很巧妙很有跪感的一张图，红色的波：时域的波形，蓝色正弦波：分解成的正弦波，旋转后侧面的视角：频域，旋转后几根小棍儿的蓝色图：频域图 图源：Wiki百科</em></font></p>
+<p><img src="/picture/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/%E6%97%B6%E5%9F%9F%E9%A2%91%E5%9F%9F%E5%AF%B9%E5%BA%94.gif" alt=""><font size=2> <em>很巧妙很有跪感的一张图，红色的波：时域的波形；蓝色正弦波：分解成的正弦波；旋转后侧面的视角：频域；旋转后几根小棍儿的蓝色图：频域图 ；图源：Wiki百科</em></font></p>
 <h2 id="傅里叶级数是什么"><a href="#傅里叶级数是什么" class="headerlink" title="傅里叶级数是什么"></a>傅里叶级数是什么</h2><p>傅里叶级数的概念要先于傅里叶变换，傅里叶变换是傅里叶级数的推广。</p>
 <p>傅里叶最初提出的想法是：<strong>任何周期函数，都可以看作是不同振幅，不同相位正弦波的叠加。</strong></p>
-<p>这就是说，不管再复杂的周期信号，都可以看成是多个简单正弦波信号的组合相加来进行逼近。由于组合方式有很多种，所以最终出来的信号就有很多种。打个比方，不管再复杂再细腻的颜色，都可以用红黄蓝几个基本的颜色来调出来，由于你调制分配的方式有很多种，所以最终出现的颜色就有很多种。</p>
+<p>这就是说，不管再复杂的周期信号，都可以看成是多个简单正弦波信号的组合相加来进行逼近。由于组合方式有很多种，所以最终出来的信号就有很多种。<br>打个比方，不管再复杂再细腻的颜色，都可以用红黄蓝几个基本的颜色来调出来，由于你调制分配的方式有很多种，所以最终出现的颜色就有很多种。<br>再打个比方，不管用天平称多重的物体，只要基本的砝码组合够完备，我们都能称出任意重量出来，是由于砝码搭配的方式有很多种，所以最终能称的重量就有很多种。</p>
 <p>这种正弦波信号的组合式，就是傅里叶级数。它还仅仅停留在时域层面，并没有像傅里叶变换涉及到频域。</p>
 <p>那你怎么找出是哪些正弦波组合呢，我所知道的就是用傅里叶级数公式。</p>
 <p>注意这里进行傅里叶级数展开的前提一定是：<strong>周期函数</strong>，如果不是一个周期函数（非周期函数），就成了傅里叶变换。周期信号做傅里叶变换可以得到一组傅里叶级数。</p>
@@ -452,7 +452,7 @@ height:50vh;
 <p>按道理这时候要举出一些例子，来说明从频域里分析确实方便不少，但我还没学到那种程度，只知道频域在奈奎斯特准则上的体现，其他自己确实还没体会到一些实际应用上的精妙之处，自然就写不出来。</p>
 <p>这里就再剽窃一下别人的智慧，复述一下别人生动的比喻（别人真强）。<br>有一杯水果冰沙，我们除了喝起来爽歪歪，还想知道冰沙里有哪些水果，放了多少勺糖之类，就利用傅里叶变换这个工具，把它看成是一个可以分离成分的神奇漏斗，我们把冰沙经过傅里叶变换这个分离器，便得到了例如，两份橘子，一份牛奶，一份香蕉，三份糖的具体成分，如果我们想再甜一点，把三份糖换成四份，想多喝奶，就换成两份。注意这里的单位是一份一份，这里的份，就对应如果是周期信号的基频，基频的整数倍。不管怎么变来变去，总量一定不变。</p>
 <p>这就非常形象说明了傅里叶变换的用处。我们不仅要关注一杯做好的冰沙，也同样关注不同配料成分，这是两个不同的角度。</p>
-<h2 id="拉普拉斯变换和Z变换"><a href="#拉普拉斯变换和Z变换" class="headerlink" title="拉普拉斯变换和Z变换"></a>拉普拉斯变换和Z变换</h2><p>本文暂时就到此为止了。<br>嗯，原因是有些东西写着写着我也糊涂了，还有太多内容要讲，好吧其实就是不想写了。<br>以后有缘再更。</p>
+<h2 id="拉普拉斯变换和Z变换"><a href="#拉普拉斯变换和Z变换" class="headerlink" title="拉普拉斯变换和Z变换"></a>拉普拉斯变换和Z变换</h2><p>本文暂时就到此为止了。<br>嗯，原因就是不想写了，好吧，其实是有些东西写着写着我也糊涂了，还有太多内容要讲。<br>以后有缘再更。</p>
 </font>
     </article>
     <!-- license  -->
@@ -764,9 +764,35 @@ top:50vh;
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 14
+        Total : 16
         </div>
         <!-- search  -->
         
@@ -836,6 +862,16 @@ top:50vh;
     
     
         <li class="archive-post-item">
+            <span class="archive-post-date">03/20</span><a class="archive-post-title" href= "/2020/03/20/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89/" >Java基础（三）</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/20</span><a class="archive-post-title" href= "/2020/03/20/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89/" >Java基础（二）</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
             <span class="archive-post-date">03/19</span><a class="archive-post-title" href= "/2020/03/19/Java%E5%9F%BA%E7%A1%80(%E4%B8%80)/" >Java基础(一)</a>
         </li>
     
@@ -884,13 +920,13 @@ top:50vh;
     
         <span class="sidebar-tag-name" data-tags="年终总结"><span class="iconfont-archer">&#xe606;</span>年终总结</span>
     
-        <span class="sidebar-tag-name" data-tags="信号与系统"><span class="iconfont-archer">&#xe606;</span>信号与系统</span>
-    
         <span class="sidebar-tag-name" data-tags="傅里叶变换"><span class="iconfont-archer">&#xe606;</span>傅里叶变换</span>
     
         <span class="sidebar-tag-name" data-tags="量子"><span class="iconfont-archer">&#xe606;</span>量子</span>
     
         <span class="sidebar-tag-name" data-tags="物理"><span class="iconfont-archer">&#xe606;</span>物理</span>
+    
+        <span class="sidebar-tag-name" data-tags="信号"><span class="iconfont-archer">&#xe606;</span>信号</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
